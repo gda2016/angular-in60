@@ -3,7 +3,8 @@
 ##### [Setup](https://v2.angular.io/docs/ts/latest/guide/setup.html)
 
 - [x] Step 1 : Create project ng2in60
-- [x] Step 2 : 
+- [x] Step 2 : Create Components
+- [x] Step 3 : Create Services
 
 ## Step 1 :
 ### Create project ng2in60
@@ -25,11 +26,14 @@ $ git add --all
 $ git commit -m "Create project ng2in60"
 $ git remote add origin https://github.com/gda2016/angular-in60.git
 $ git push -u origin master
+$ git checkout -b step_3
 $ git branch 
-$ git checkout
+$ git push --set-upstream origin step_3
 ```
 
-
+## Step 2 : 
+### Create Services
+#### [JSONPlaceholder](http://jsonplaceholder.typicode.com/)
 
 
 
