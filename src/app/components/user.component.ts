@@ -38,7 +38,11 @@ export class UserComponent  {
 	}
 
 	toggleHobbies() {
-		this.showHobbies = true;	
+		if (this.showHobbies == true) {
+			this.showHobbies = false;
+		} else {
+			this.showHobbies = true;
+		}	
 	}
 }
 
