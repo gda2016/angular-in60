@@ -34,6 +34,12 @@ import { PostsService } from '../services/posts.services';
   		<label>State: </label><br />
   		<input type="text" name ="address.state" [(ngModel)]="address.state"/><br />
   	</form>
+    <,hr />
+    <h3>Posts</h3>
+    <div *ngFor="let post of posts">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.body }}</p>
+    </div>
   	`,
     providers: [PostsService]
 })
@@ -43,6 +49,7 @@ export class UserComponent  {
 	address: address;
 	hobbies: string[];
 	showHobbies: boolean;
+  posts: Post[];
 
 	constructor(private postsService: PostsService){
 		this.name = 'Jana'; 
@@ -56,7 +63,7 @@ export class UserComponent  {
 		this.showHobbies = false;
 
     this.postsService.getPosts().subscribe(posts => {
-      console.log(posts);
+      this.posts = posts;
     });
 
 	}
@@ -83,4 +90,10 @@ interface address {
 	street: string;
 	city: string;
 	state: string;
+}
+
+interface Posts {
+  id: number;
+  title: string;
+  body: string;
 }
