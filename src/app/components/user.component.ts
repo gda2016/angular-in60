@@ -18,6 +18,6 @@ export class UserComponent  {
 	}
 
 	constructor(){
-		console.log('constractor ran');
+		this.name = 'Elena';
 	}
 }
