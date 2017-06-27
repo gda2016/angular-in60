@@ -16,4 +16,8 @@ export class UserComponent  {
 		city: 'Cherkasy',
 		state: 'UA'
 	}
+
+	constructor(){
+		console.log('constractor ran');
+	}
 }
