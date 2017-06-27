@@ -7,4 +7,9 @@ export class PostsService {
 	constructor(private http: Http) {
 		console.log('PostsSerice Initilized ...');
 	}
+
+	getPosts() {
+		return this.http.get('http://jsonplaceholder.typicode.com/posts')
+			.map(res => res.json());
+	}
 }

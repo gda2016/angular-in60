@@ -34,7 +34,8 @@ $ git push --set-upstream origin step_3
 ## Step 3 : 
 ### Create Services
 #### [JSONPlaceholder](http://jsonplaceholder.typicode.com/)
-
+##### Setup Service Http
+##### Create functin getPosts()
 
 
 # Angular QuickStart Source
