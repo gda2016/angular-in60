@@ -3,11 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   template: `
-  	<h1>Hello {{name}}</h1>
-  	<p>Email: {{email}}</p>
+  <user></user>
   	`,
 })
 export class AppComponent  { 
-	name = 'Jana'; 
-	email = 'jana@gmail.com';
+
 }
