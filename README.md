@@ -39,6 +39,8 @@ $ git push --set-upstream origin step_3
 ##### Create add property posts to constractor, create interface Post and insert *ngFor list of posts
 ##### Separate file from user.component.ts to user.component.html
 
+## Step 4 : 
+### Routing
 
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
