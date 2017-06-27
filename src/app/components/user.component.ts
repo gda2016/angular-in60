@@ -64,7 +64,7 @@ export class UserComponent  {
 	}
 
 	addHobby(hobby) {
-		console.log(hobby);
+		this.hobbies.push(hobby);
 	}
 
 }
