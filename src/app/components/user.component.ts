@@ -38,7 +38,7 @@ export class UserComponent  {
 	}
 
 	toggleHobbies() {
-		console.log('show');	
+		this.showHobbies = true;	
 	}
 }
 
