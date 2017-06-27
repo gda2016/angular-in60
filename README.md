@@ -31,7 +31,7 @@ $ git branch
 $ git push --set-upstream origin step_3
 ```
 
-## Step 2 : 
+## Step 3 : 
 ### Create Services
 #### [JSONPlaceholder](http://jsonplaceholder.typicode.com/)
 
