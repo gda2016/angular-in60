@@ -36,6 +36,8 @@ $ git push --set-upstream origin step_3
 #### [JSONPlaceholder](http://jsonplaceholder.typicode.com/)
 ##### Setup Service Http
 ##### Create functin getPosts()
+##### Create add property posts to constractor, create interface Post and insert *ngFor list of posts
+##### Separate file from user.component.ts to user.component.html
 
 
 # Angular QuickStart Source
