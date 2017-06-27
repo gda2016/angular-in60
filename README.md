@@ -19,10 +19,12 @@ $ npm start
 ```
 ### Setup Git
 ```
+$ rm -rf .git
 $ git init
 $ git add --all
 $ git commit -m "Create project ng2in60"
-$ git push origin
+$ git remote add origin https://github.com/gda2016/angular-in60.git
+$ git push -u origin master
 $ git branch 
 $ git checkout
 ```
