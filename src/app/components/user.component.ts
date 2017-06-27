@@ -9,15 +9,16 @@ import { Component } from '@angular/core';
   	`,
 })
 export class UserComponent  { 
-	name = 'Jana'; 
-	email = 'jana@gmail.com';
-	address = {
-		street: '1 Chevchenko Bv',
-		city: 'Cherkasy',
-		state: 'UA'
-	}
+	name; 
+	email;
+	address;
 
 	constructor(){
-		this.name = 'Elena';
+		this.name = 'Jana'; 
+		this.email = 'jana@gmail.com';
+		this.address = {
+			street: '1 Chevchenko Bv',
+			city: 'Cherkasy',
+			state: 'UA'
 	}
 }
